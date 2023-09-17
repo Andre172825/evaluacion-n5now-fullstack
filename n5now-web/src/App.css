@@ -1,0 +1,41 @@
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.icon-delete {
+  background-color: #f54545;
+  color: white;
+  border-radius: 3px;
+  margin: 0 5px 0 5px;
+  display: "inline-block";
+  cursor: pointer;
+}
+
+.icon-edit {
+  background-color: #0dcaf0;
+  color: white;
+  border-radius: 3px;
+  margin: 0 5px 0 0px;
+  display: "inline-block";
+  cursor: pointer;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.link-button {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}

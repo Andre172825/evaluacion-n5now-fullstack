@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{71945D6C-6A4B-4709-8907-54B0C4B86D01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "script", "script", "{95924F1A-1911-4F38-B836-096A71CECCD7}"
+	ProjectSection(SolutionItems) = preProject
+		db.sql = db.sql
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{31024C36-B853-406F-9915-2926BA571C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "n5now-api", "n5now-api\n5now-api.csproj", "{D4739175-B030-447D-8191-F756595A699F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "n5now-test", "n5now-test\n5now-test.csproj", "{FB9F4530-733A-4F91-8C1E-2C7E4836217E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4739175-B030-447D-8191-F756595A699F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4739175-B030-447D-8191-F756595A699F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4739175-B030-447D-8191-F756595A699F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4739175-B030-447D-8191-F756595A699F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9F4530-733A-4F91-8C1E-2C7E4836217E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9F4530-733A-4F91-8C1E-2C7E4836217E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9F4530-733A-4F91-8C1E-2C7E4836217E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9F4530-733A-4F91-8C1E-2C7E4836217E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4739175-B030-447D-8191-F756595A699F} = {71945D6C-6A4B-4709-8907-54B0C4B86D01}
+		{FB9F4530-733A-4F91-8C1E-2C7E4836217E} = {31024C36-B853-406F-9915-2926BA571C08}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1042FBE6-D0BC-4E73-BEF1-F257E7C982EA}
+	EndGlobalSection
+EndGlobal
